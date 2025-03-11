@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "Advanced Color Generator",
-    "description": "Generate colors and convert them to different formats.",
+    "name": "Chromatic Pro",
+    "description": " Pick, Convert, and Generate Colors Like a Pro!",
     "version": "1.0",
     "permissions": ["activeTab", "clipboardWrite", "eyedropper"],
     "background": {
