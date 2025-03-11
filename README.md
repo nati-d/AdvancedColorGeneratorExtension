@@ -1,28 +1,17 @@
-# Advanced Color Picker and Generator Chrome Extension
+# Chromatic Pro
 
-A powerful and beautifully designed Chrome extension for front-end developers, designers, and color enthusiasts! This tool goes beyond just picking colors — it
+A powerful and beautifully designed Chrome extension for front-end developers, designers, and color enthusiasts! This tool goes beyond just picking colors it
 helps you convert, generate, and manage colors like a pro.
 
 ## Features
 
--   Color Picker on Canvas
+- **Color Picker**: A user-friendly color input that allows you to select colors and obtain their corresponding HEX, RGB, and HSL values.
+- **Color Generator**: A random color generator that allows users to create unique color palettes with a single click.
+- **Tailwind CSS Shades**: Automatically generates Tailwind CSS-compatible color shades for any selected color, allowing for easy integration into projects.
+- **Clipboard Integration**: Copy color values to the clipboard with a simple click for convenient usage across your projects.
+- **Dark Mode Support**: Toggle between light and dark modes to ensure a comfortable working environment.
+- **Eye Dropper Tool**: Pick colors directly from any web page using an integrated eye dropper tool.
 
-    -   Pick colors directly from any web page with a single click.
-    -   Use the advanced Eyedropper tool to grab colors from active tabs.
-
--   Format Conversion
-
-    -   Seamlessly convert between HEX, RGB, and HSL color formats.
-    -   Real-time conversion as you pick or input colors.
-
--   Tailwind CSS Color Variants Generator
-
-    -   Instantly generate Tailwind-style color shades.
-    -   Perfect for building consistent design systems.
-
--   Random Color Generator
-    -   Get beautifully random colors for inspiration.
-    -   Copy HEX, RGB, or HSL formats for quick use.
 
 ## Installation
 
@@ -51,4 +40,4 @@ git clone https://github.com/nati-d/AdvancedColorGeneratorExtension.git
 
 -   HTML5
 -   CSS3 
--   JavaScript ES6+
+-   JavaScript ES
