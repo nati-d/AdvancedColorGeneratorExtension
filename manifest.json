@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "Advanced Color Picker",
-    "description": "Pick colors from any page and convert between formats.",
+    "name": "Advanced Color Generator",
+    "description": "Generate colors and convert them to different formats.",
     "version": "1.0",
     "permissions": ["activeTab", "clipboardWrite", "eyedropper"],
     "background": {
@@ -9,12 +9,12 @@
     },
     "action": {
       "default_popup": "popup.html",
-      "default_icon": "icon1.png"
+      "default_icon": "/assets//icons/icon1.png"
     },
     "icons": {
-      "16": "icon1.png",
-      "48": "icon1.png",
-      "128": "icon1.png"
+      "16": "/assets//icons/icon1.png",
+      "48": "/assets//icons/icon1.png",
+      "128": "/assets//icons/icon1.png"
     }
   }
   
