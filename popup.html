@@ -9,20 +9,36 @@
 <body>
   <div class="popup-container">
     <h1>Advanced Color Picker</h1>
-    <div class="color-display" id="color-display">
-      <span id="color-code">#FFFFFF</span>
+    
+    <div class="tab-navigation">
+      <button class="tab-button active" data-tab="picker">Color Picker</button>
+      <button class="tab-button" data-tab="generator">Color Generator</button>
     </div>
-    <input type="color" id="color-picker" />
-    <button id="eyedropper-button">🎨 Pick from Page</button>
-    <div class="color-formats">
-      <label>HEX:</label>
-      <input type="text" id="hex-input" readonly>
-      <label>RGB:</label>
-      <input type="text" id="rgb-input" readonly>
-      <label>HSL:</label>
-      <input type="text" id="hsl-input" readonly>
+    
+    <div class="tab-content active" id="picker-tab">
+      <div class="color-display" id="color-display">
+        <span id="color-code">#FFFFFF</span>
+      </div>
+      <input type="color" id="color-picker" />
+      <button id="eyedropper-button">🎨 Pick from Page</button>
+      <div class="color-formats">
+        <label>HEX:</label>
+        <input type="text" id="hex-input" readonly>
+        <label>RGB:</label>
+        <input type="text" id="rgb-input" readonly>
+        <label>HSL:</label>
+        <input type="text" id="hsl-input" readonly>
+      </div>
+      <button id="copy-button">📋 Copy Color</button>
     </div>
-    <button id="copy-button">📋 Copy Color</button>
+    
+    <div class="tab-content" id="generator-tab">
+      <div class="generator-controls">
+        <h2>Random Color Palette</h2>
+        <button id="refresh-button">🔄 Generate New Colors</button>
+      </div>
+      <div class="generated-colors" id="generated-colors"></div>
+    </div>
     
     <div class="tailwind-colors">
       <h2>Tailwind CSS Shades</h2>
