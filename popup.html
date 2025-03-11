@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Color Picker</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <h1>Advanced Color Picker</h1>
+    <div class="color-display" id="color-display">
+      <span id="color-code">#FFFFFF</span>
+    </div>
+    <input type="color" id="color-picker" />
+    <button id="eyedropper-button">🎨 Pick from Page</button>
+    <div class="color-formats">
+      <label>HEX:</label>
+      <input type="text" id="hex-input" readonly>
+      <label>RGB:</label>
+      <input type="text" id="rgb-input" readonly>
+      <label>HSL:</label>
+      <input type="text" id="hsl-input" readonly>
+    </div>
+    <button id="copy-button">📋 Copy Color</button>
+    
+    <div class="tailwind-colors">
+      <h2>Tailwind CSS Shades</h2>
+      <div class="tailwind-colors-grid" id="tailwind-colors-grid"></div>
+    </div>
+  </div>
+  <div class="tooltip" id="tooltip"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
+
