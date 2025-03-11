@@ -50,5 +50,5 @@ git clone https://github.com/nati-d/AdvancedColorGeneratorExtension.git
 ## Tech Stack
 
 -   HTML5
--   CSS3 (Tailwind CSS)
--   JavaScript (ES6+)
+-   CSS3 
+-   JavaScript ES6+
